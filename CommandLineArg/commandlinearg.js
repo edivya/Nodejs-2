@@ -1,16 +1,21 @@
-// var a = process.argv[2];
-// var b = process.argv[3];
-// if(a === b){
-// console.log(true);
-// }
-// else {
-//     console.log(false); 
-// }
+// // Get Variables
+var argOne = process.argv[2];
+var argTwo = process.argv[3];
 
-// if(parseFloat(a) && parseFloat (b) %7 === 0){
-// console.log("true");
-// }
-// (or)
+// Run the test
+if (argOne === argTwo) {
 
-console.log((process.argv[2]) === (process.argv[3]));
-console.log((parseFloat(process.argv[2]) && parseFloat (process.argv[3]) % 7 === 0));
+  // Print equality.
+  console.log(true);
+}
+else {
+  console.log(false);
+}
+
+// BONUS: If the sum of remainders is still 0... then that means both were multiples of 7 to begin with.
+if ((argOne % 7) === 0 && (argTwo % 7) === 0) {
+  console.log(true);
+}
+else {
+  console.log(false);
+}
