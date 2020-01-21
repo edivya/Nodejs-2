@@ -1,4 +1,4 @@
-# week10-day2
+# Nodejs-2
 
 **Command Line Arg**
 * Starting from a blank JavaScript file, create a Node application that takes in two command line arguments and checks if they are equal. If the two numbers are equal then output: "true". Otherwise output: "false".
